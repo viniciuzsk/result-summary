@@ -1,0 +1,157 @@
+body {
+  background-color: white;
+  padding: 10px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.125rem;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+img {
+  display: block;
+}
+span {
+  display: block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  min-width: 690px;
+  box-shadow: 0px 12px 27px 0px rgba(0, 0, 0, 0.07),
+    0px 50px 50px 0px rgba(0, 0, 0, 0.06),
+    0px 111px 67px 0px rgba(0, 0, 0, 0.04),
+    0px 198px 79px 0px rgba(0, 0, 0, 0.01), 0px 310px 87px 0px rgba(0, 0, 0, 0);
+  max-width: 800px;
+  border-radius: 50px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container-score {
+  border-radius: 40px;
+  height: 512px;
+  padding: 30px 60px 60px 60px;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
+
+.container-score .titulo {
+  margin-bottom: 70px;
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+}
+.circle-score {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+.score-valor {
+  font-weight: bold;
+  font-size: 3.8em;
+  text-align: center;
+  color: white;
+}
+.score-item {
+  text-align: center;
+  color: #8e81ff;
+  font-size: 1em;
+}
+.container-score .great {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.8em;
+}
+
+.container-score p {
+  font-size: 1em;
+  text-align: center;
+  color: #bab8ff;
+  margin-top: 30px;
+}
+.container-summary {
+  padding: 30px 60px;
+}
+
+.container-summary h1 {
+  margin-bottom: 35px;
+}
+
+.flex {
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 25px;
+}
+.flex p,
+span {
+  font-size: 16px;
+}
+
+.flex-img {
+  display: flex;
+  gap: 20px;
+}
+.red {
+  background-color: #fff6f5;
+  color: #df6165;
+}
+.yello {
+  background-color: #fffbf2;
+  color: #e9b758;
+}
+
+.green {
+  background-color: #f2fbfa;
+  color: #2fa487;
+}
+
+.blue {
+  background-color: #f3f3fd;
+  color: #262d9f;
+}
+
+.summary-buttom {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #303b59;
+  color: white;
+  border-radius: 2.3125rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  transition: 0.3s;
+  box-shadow: 0px 3px 6px 0px rgba(158, 158, 158, 0.53),
+    0px 10px 10px 0px rgba(158, 158, 158, 0.46),
+    0px 23px 14px 0px rgba(158, 158, 158, 0.27),
+    0px 40px 16px 0px rgba(158, 158, 158, 0.08),
+    0px 63px 18px 0px rgba(158, 158, 158, 0.01);
+}
+
+.summary-buttom:hover {
+  box-shadow: 0px 1px 2px 0px rgba(158, 158, 158, 0.84),
+    0px 3px 3px 0px rgba(158, 158, 158, 0.73),
+    0px 6px 4px 0px rgba(158, 158, 158, 0.43),
+    0px 11px 4px 0px rgba(158, 158, 158, 0.13),
+    0px 17px 5px 0px rgba(158, 158, 158, 0.02);
+}
